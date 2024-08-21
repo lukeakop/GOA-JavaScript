@@ -1,0 +1,11 @@
+  /* CSS FOR #3 HW */
+  
+ /* /* Some basic styles for the textarea and counter */
+ textarea {
+  width: 100%; /* Make the textarea take full width */
+  height: 100px; /* Set a height for the textarea */
+}
+.counter {
+  margin-top: 10px; /* Space between textarea and counter */
+  font-weight: bold; /* Make the counter text bold */
+} 

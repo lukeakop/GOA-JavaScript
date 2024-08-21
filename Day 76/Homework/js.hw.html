@@ -1,0 +1,22 @@
+
+<html lang="en">
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS</title>
+
+</head>
+<body>
+  <h1 onclick="alert('Chnaged With JS')" id="h1t">Changing P tag color with js!</h1>
+  <h2 onclick="alert('nothing happens... why?')" id="h2h">And yea thats second</h2>
+
+
+  <script>
+    let heading = document.getElementById("h1t").textContent = "hi this was changed"
+    heading.style.color = "orange"
+
+    let h2h = document.getElementById("h2h")
+    h2h.style.color = "red"
+  </script>
+</body>
+</html>
