@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart with Discounts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Shopping Cart</h1>
+        <div id="add-item-form">
+            <h2>Add New Item</h2>
+            <input type="text" id="item-name" placeholder="Item Name">
+            <input type="number" id="item-price" placeholder="Price">
+            <input type="number" id="item-quantity" placeholder="Quantity">
+            <button id="add-item">Add Item</button>
+        </div>
+        <div id="cart-items">
+            <!-- Cart items will be displayed here -->
+        </div>
+        <div id="cart-total">
+            <h2>Total: $<span id="total-amount">0</span></h2>
+        </div>
+        <div id="filter-form">
+            <h2>Filter Items</h2>
+            <input type="number" id="min-price" placeholder="Min Price">
+            <input type="number" id="max-price" placeholder="Max Price">
+            <button id="filter-items">Filter</button>
+        </div>
+        <div id="filtered-items">
+            <!-- Filtered items will be displayed here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
